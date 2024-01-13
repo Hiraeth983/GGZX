@@ -1,10 +1,12 @@
 <template>
   <div class="box">
-    <h2>App根组件</h2>
+    <el-button :icon="Edit">测试按钮</el-button>
   </div>
 </template>
 
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import { Edit } from "@element-plus/icons-vue";
+</script>
 
 <style scoped lang="scss">
 .box {
