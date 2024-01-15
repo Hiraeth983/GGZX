@@ -1,6 +1,7 @@
 <template>
   <div class="box">
     <el-button :icon="Edit">测试按钮</el-button>
+    <SvgIcon name="refresh" color="green"></SvgIcon>
   </div>
 </template>
 
